@@ -77,59 +77,23 @@ nav {
     transition: all 0.3s;
 }
 
-.popup:hover {
-
-    color: white;
-    width: 20%;
-
+.try button{
+    height: 42px;
+    width: fit-content;
+    white-space: nowrap;
+    border-radius: 12px;
+    margin: 8px 12px 0 34px;
+    
+    padding: 7px 16px;
+    background-color: #FFBA00;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--white);
+    border: 0;
 }
 
-.popup:hover .goBond {
-    background-color: white;
-    color: #FF9300;
-    height: 20%;
-}
-
-.popup p {
-    width: 50%;
-    margin: auto;
-}
-
-.goBond {
-    margin-top: 10%;
-    background-color: white;
-    color: #FF9300;
-    padding: 10px 5px;
-    transition: all 0.3s;
-}
-
-.goBond h2 {
-    font-size: 16px;
-    font-weight: 800;
-    text-align: center;
-}
-
-
-/*------------ Menu Burgur ----------*/
-#burger {
-    width: 30px;
-    line-height: 20px;
-    font-size: 10px;
-    text-align: left;
-    border-radius: 5px;
-    display: none;
-    cursor: pointer;
-    position: absolute;
-    right: 10%;
-}
-
-#burger img {
-    width: 100%;
-}
-
-#controle {
-    display: none;
-}
 
 /*---------------Partie 1--------------*/
 h1 {
@@ -504,7 +468,7 @@ h1 {
     border-radius: 12px;
     margin-left: 16px;
     padding: 7px 16px;
-    background-color: var(--blue);
+    background-color: #FFBA00;
     font-family: 'Manrope', sans-serif;
     font-size: 18px;
     font-weight: bold;
@@ -628,7 +592,7 @@ h1 {
         height: 100px;
     }
 
-    .popup {
+   .try button{
         display: none;
     }
 
@@ -665,7 +629,7 @@ h1 {
         box-shadow: 0 8px 15px rgba(0, 0, 0, 0.16);
     }
     .menu a.icon {
-        color: white;
+        color: black;
         display: block;
         position: absolute;
         right: 120px;
