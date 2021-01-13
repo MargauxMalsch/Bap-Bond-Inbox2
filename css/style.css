@@ -7,10 +7,21 @@
     background-image: url(../img/BG.png);
     background-size: 100% no-repeat;
 }
+
+.first_section {
+    background-image: url("../img/forme_gauche_1.svg"), url("../img/forme_milieu_1.svg"), url("../img/forme_droite_1.svg");
+    /* background-image: url(../img/forme_milieu.svg); */
+    background-repeat: no-repeat;
+    background-position: left bottom 50px, top left, right top;
+    background-size: auto 50%, 100% auto, 30% auto;
+}
 /*----------------- Hearder --------------------*/
 header {
     background-color: rgba(255, 255, 255, 0.50);
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    position: fixed;
+    z-index: 900;
+    backdrop-filter: blur(4px);
 }
 
 nav {
