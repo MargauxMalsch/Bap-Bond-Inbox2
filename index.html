@@ -17,7 +17,7 @@
                 <nav>
                     <div class="logo">
                         <img src="img/Composant 28 – 1.png" alt="en" id="en">
-                        <img src="img/logonoir.png" alt="logo">
+                        <img class="main_logo pc" src="img/logonoir.png" alt="logo">
 
                     </div>
                     <div class="menu">
@@ -26,9 +26,9 @@
                             <i class="fas fa-times fa-2x" id="close"></i>
                         </a>
                         <ul id="monMenu">
-                            <li class="info">PRESENTATION</li>
-                            <li class="info">HOW IT WORKS</li>
-                            <li class="info">TESTIMONIES</li>
+                            <li class="info"><a href="#presentation">PRESENTATION</li></a>
+                            <li class="info"><a href="#howItWorks">HOW IT WORKS</li></a>
+                            <li class="info"><a href="#testimonie">TESTIMONIES</li></a>
                         </ul>
                     </div>
                    
@@ -47,245 +47,223 @@
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
                 </div>
 
-                <div class="produit">
+                <section class="produit">
                     <div>
-                        <img>
+                        <img src="img/MacBook_Pro_16.png" alt="mac" id="mac">
                     </div>
-                </div>
+                </section>
                 
-                <article class="presentation">
+                <section class="presentation">
                     <form action="" class="email_form">
                         <label for="testimonie_email_input" class="email_label">Email</label>
                         <input type="email" name="email" id="testimonie_email_input" placeholder="Your email...">
                         <button type="submit">try now</button>
                     </form>
-                    <h2>Presentation</h2>
+                    <h2 id="presentation">Presentation</h2>
                     <p>Click for more</p>
-                    <section class="functionalities">
+                    <article class="functionalities">
                         <div class="functionality">
-                        <div id="showMoreFirst" onclick="functionShowFirst()">
-                            <div class="imageFunctionality">
-                                <img src="" alt="">
+                            <div id="showMoreFirst" onclick="functionShowFirst()">
+                                <div class="imageFunctionality">
+                                    <img src="img/meaningful.png" alt="" class="FirstImg">
+                                </div>
+                                <p>Meaningful triage</p>
                             </div>
-                            <p>Functionality.exe</p>
-                        </div>
-                        <div id="openFirst" onclick="functionHideFirst()">
-                            <div class="openImage">
-                                <img src="" alt="">
+                            <div id="openFirst" onclick="functionHideFirst()">
+                                <div class="openImage">
+                                    <img src="img/meaningful.png" alt="">
+                                </div>
+                                <p class="openText">
+                                    Bond lets you know what is expected from you, before you start reading anything.
+                                </p>
+                                <p class="openText2">
+                                    So you always handle what matters, when it matters to you.
+    
+                                </p>
                             </div>
-                            <p class="openText">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id enim bibendum, 
-                                porta turpis sed, pulvinar ipsum. Proin vitae augue sit amet sapien faucibus porta 
-                                in quis leo. Ut magna orci, pharetra vitae leo ac, luctus mattis orci.
-                            </p>
-                            <p class="openText2">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id enim bibendum, 
-                                porta turpis sed, pulvinar ipsum. Proin vitae augue sit amet sapien faucibus porta 
-                                in quis leo. Ut magna orci, pharetra vitae leo ac, luctus mattis orci.
-                            </p>
                         </div>
-                    </div>
-            
-                    <div class="functionality">
-                        <div id="showMoreSecond" onclick="functionShowSecond()">
-                            <div class="imageFunctionality">
-                                <img src="" alt="">
+    
+                        <div class="functionality">
+                            <div id="showMoreSecond" onclick="functionShowSecond()">
+                                <div class="imageFunctionality">
+                                    <img src="img/Easy_Lifecycle.png" alt="" class="FirstImg">
+                                </div>
+                                <p>Easy lifecycle management</p>
                             </div>
-                            <p>Functionality.exe</p>
-                        </div>
-                        <div id="openSecond" onclick="functionHideSecond()">
-                            <div class="openImage">
-                                <img src="" alt="">
+                            <div id="openSecond" onclick="functionHideSecond()">
+                                <div class="openImage">
+                                    <img src="img/Easy_Lifecycle.png" alt="">
+                                </div>
+                                <p class="openText">
+                                    In Bond messages are automatically sorted based upon their completion status.
+                                </p>
+                                <p class="openText2">
+                                    So you never waste time again unscrambling a pile of messages.
+                                </p>
                             </div>
-                            <p class="openText">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id enim bibendum, 
-                                porta turpis sed, pulvinar ipsum. Proin vitae augue sit amet sapien faucibus porta 
-                                in quis leo. Ut magna orci, pharetra vitae leo ac, luctus mattis orci.
-                            </p>
-                            <p class="openText2">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id enim bibendum, 
-                                porta turpis sed, pulvinar ipsum. Proin vitae augue sit amet sapien faucibus porta 
-                                in quis leo. Ut magna orci, pharetra vitae leo ac, luctus mattis orci.
-                            </p>
                         </div>
-                    </div>
-            
-                    <div class="functionality">
-                        <div id="showMoreThird" onclick="functionShowThird()">
-                            <div class="imageFunctionality">
-                                <img src="" alt="">
+    
+                        <div class="functionality">
+                            <div id="showMoreThird" onclick="functionShowThird()">
+                                <div class="imageFunctionality">
+                                    <img src="img/Assignment.png" alt="" class="FirstImg">
+                                </div>
+                                <p>Assignment owner highlight
+                                </p>
                             </div>
-                            <p>Functionality.exe</p>
-                        </div>
-                        <div id="openThird" onclick="functionHideThird()">
-                            <div class="openImage">
-                                <img src="" alt="">
+                            <div id="openThird" onclick="functionHideThird()">
+                                <div class="openImage">
+                                    <img src="img/Assignment.png" alt="">
+                                </div>
+                                <p class="openText">
+                                    Bond isolates what you owe, from what you are owed.
+                                </p>
+                                <p class="openText2">
+                                    So you can choose to get things done, or to track what you are waiting for.
+                                </p>
                             </div>
-                            <p class="openText">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id enim bibendum, 
-                                porta turpis sed, pulvinar ipsum. Proin vitae augue sit amet sapien faucibus porta 
-                                in quis leo. Ut magna orci, pharetra vitae leo ac, luctus mattis orci.
-                            </p>
-                            <p class="openText2">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id enim bibendum, 
-                                porta turpis sed, pulvinar ipsum. Proin vitae augue sit amet sapien faucibus porta 
-                                in quis leo. Ut magna orci, pharetra vitae leo ac, luctus mattis orci.
-                            </p>
                         </div>
-                    </div>
-            
-                    <div class="functionality">
-                        <div id="showMoreFourth" onclick="functionShowFourth()">
-                            <div class="imageFunctionality">
-                                <img src="" alt="">
+    
+                        <div class="functionality">
+                            <div id="showMoreFourth" onclick="functionShowFourth()">
+                                <div class="imageFunctionality">
+                                    <img src="img/Completion.png" alt="" class="FirstImg">
+                                </div>
+                                <p>Completion readiness alert
+                                </p>
                             </div>
-                            <p>Functionality.exe</p>
-                        </div>
-                        <div id="openFourth" onclick="functionHideFourth()">
-                            <div class="openImage">
-                                <img src="" alt="">
+                            <div id="openFourth" onclick="functionHideFourth()">
+                                <div class="openImage">
+                                    <img src="img/Completion.png" alt="">
+                                </div>
+                                <p class="openText">
+                                    Be notified when inputs are ready, or missing as due time gets close.
+                                </p>
+                                <p class="openText2">
+                                    So you always respond at the right time, without the tracking hustle.
+                                </p>
                             </div>
-                            <p class="openText">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id enim bibendum, 
-                                porta turpis sed, pulvinar ipsum. Proin vitae augue sit amet sapien faucibus porta 
-                                in quis leo. Ut magna orci, pharetra vitae leo ac, luctus mattis orci.
-                            </p>
-                            <p class="openText2">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id enim bibendum, 
-                                porta turpis sed, pulvinar ipsum. Proin vitae augue sit amet sapien faucibus porta 
-                                in quis leo. Ut magna orci, pharetra vitae leo ac, luctus mattis orci.
-                            </p>
                         </div>
-                    </div>
-            
-                    <div class="functionality">
-                        <div id="showMoreFifth" onclick="functionShowFifth()">
-                            <div class="imageFunctionality">
-                                <img src="" alt="">
+    
+                        <div class="functionality">
+                            <div id="showMoreFifth" onclick="functionShowFifth()">
+                                <div class="imageFunctionality">
+                                    <img src="img/Contextual.png" alt="" class="FirstImg">
+                                </div>
+                                <p> Contextual insight
+                                </p>
                             </div>
-                            <p>Functionality.exe</p>
-                        </div>
-                        <div id="openFifth" onclick="functionHideFifth()">
-                            <div class="openImage">
-                                <img src="" alt="">
+                            <div id="openFifth" onclick="functionHideFifth()">
+                                <div class="openImage">
+                                    <img src="img/Contextual.png" alt="">
+                                </div>
+                                <p class="openText">
+                                    In Bond, you know which project or group your messages are related to.
+                                </p>
+                                <p class="openText2">
+                                    Focus on the desired topic, never navigate through mixed up subjects.
+                                </p>
                             </div>
-                            <p class="openText">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id enim bibendum, 
-                                porta turpis sed, pulvinar ipsum. Proin vitae augue sit amet sapien faucibus porta 
-                                in quis leo. Ut magna orci, pharetra vitae leo ac, luctus mattis orci.
-                            </p>
-                            <p class="openText2">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id enim bibendum, 
-                                porta turpis sed, pulvinar ipsum. Proin vitae augue sit amet sapien faucibus porta 
-                                in quis leo. Ut magna orci, pharetra vitae leo ac, luctus mattis orci.
-                            </p>
                         </div>
-                    </div>
-            
-                    <div class="functionality">
-                        <div id="showMoreSixth" onclick="functionShowSixth()">
-                            <div class="imageFunctionality">
-                                <img src="" alt="">
+    
+                        <div class="functionality">
+                            <div id="showMoreSixth" onclick="functionShowSixth()">
+                                <div class="imageFunctionality">
+                                    <img src="img/Reading.png" alt="" class="FirstImg">
+                                </div>
+                                <p>Reading made easy
+    
+                                </p>
                             </div>
-                            <p>Functionality.exe</p>
-                        </div>
-                        <div id="openSixth" onclick="functionHideSixth()">
-                            <div class="openImage">
-                                <img src="" alt="">
+                            <div id="openSixth" onclick="functionHideSixth()">
+                                <div class="openImage">
+                                    <img src="img/Reading.png" alt="">
+                                </div>
+                                <p class="openText">
+                                    Bond uses conversational messaging, just like in dialogues.
+                                </p>
+                                <p class="openText2">
+                                    So you never need to scroll all the way down to catch up with a thread.
+                                </p>
                             </div>
-                            <p class="openText">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id enim bibendum, 
-                                porta turpis sed, pulvinar ipsum. Proin vitae augue sit amet sapien faucibus porta 
-                                in quis leo. Ut magna orci, pharetra vitae leo ac, luctus mattis orci.
-                            </p>
-                            <p class="openText2">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id enim bibendum, 
-                                porta turpis sed, pulvinar ipsum. Proin vitae augue sit amet sapien faucibus porta 
-                                in quis leo. Ut magna orci, pharetra vitae leo ac, luctus mattis orci.
-                            </p>
                         </div>
-                    </div>
-                    
-                    </section>
-                </article>
-            </section>
+    
+                    </article>
+                </section>
+    
         
-            <article class="howItWorks">
-                <h2>How it works</h2>
-                <section class="step">
-                    <div class="imageStep">
-                        <img src="not-found.png" alt="">
-                    </div>
-                    <div class="description">
-                        <h3>Title</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id enim bibendum, porta turpis sed, 
-                        pulvinar ipsum. Proin vitae augue sit amet sapien faucibus porta in quis leo. Ut magna orci, 
-                        pharetra vitae leo ac, luctus mattis orci. In non imperdiet orci. Suspendisse et auctor est. 
-                        Quisque fermentum nisi vehicula, laoreet mauris sed, mattis lorem. Integer accumsan nunc ut viverra tempus.</p>
-                    </div>
+                <section class="howItWorks">
+                    <h2 id="howItWorks">How it works</h2>
+                    <article class="step">
+                        <div class="imageStep">
+                            <img src="img/coworking.svg" alt="coworking">
+                        </div>
+                        <div class="description">
+                            <h3>Compose better...</h3>
+                            <p>With Bond, senders define their intention towards each recipient: action, question, thread, invite etc. A child can do it, in no time.</p>
+                        </div>
+                    </article>
+                    <article class="step">
+                        <div class="description">
+                            <h3>...Receive better</h3>
+                            <p>In Bond, messages automatically land in the appropriate bucket. The cool thing? Your sender did this, not an Artificial Intelligence.
+
+
+                                <br><br>So you can trust it.
+                            </p>
+                        </div>
+                        <div class="imageStep">
+                            <img src="img/responsive_6c8s.svg" alt="responsive">
+                        </div>
+                    </article>
+                    <article class="step">
+                        <div class="imageStep">
+                            <img src="img/organize_photos_d5nr.svg" alt="">
+                        </div>
+                        <div class="description">
+                            <h3>Manage efficiently</h3>
+                            <p>New messages land in the inbox. They automatically move to pending when they are read, unless they are marked as complete.
+
+
+                                <br><br> Forget the big pile of messages.</p>
+                        </div>
+                    </article>
+                    <article class="step">
+                        <div class="description">
+                            <h3>Increase Productivity & Save time</h3>
+                            <p>
+                                Isn't that great to instantly spot what matters, actions you are assigned, or answers you were waiting for?
+            
+                                Set aside lower importance messages without the fear of missing anything, and deliver faster than ever.
+                            </p>
+                        </div>
+                        <div class="imageStep">
+                            <img src="img/organizing_projects1_47ja.svg" alt="">
+                        </div>
+                    </article>
                 </section>
-                <section class="step">
-                    <div class="description">
-                        <h3>Title</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id enim bibendum, porta turpis sed, 
-                            pulvinar ipsum. Proin vitae augue sit amet sapien faucibus porta in quis leo. Ut magna orci, 
-                            pharetra vitae leo ac, luctus mattis orci. In non imperdiet orci. Suspendisse et auctor est. 
-                            Quisque fermentum nisi vehicula, laoreet mauris sed, mattis lorem. Integer accumsan nunc ut viverra tempus.
-                        </p>
-                    </div>
-                    <div class="imageStep">
-                        <img src="not-found.png" alt="">
-                    </div>
-                </section>
-                <section class="step">
-                    <div class="imageStep">
-                        <img src="not-found.png" alt="">
-                    </div>
-                    <div class="description">
-                        <h3>Title</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id enim bibendum, porta turpis sed, 
-                            pulvinar ipsum. Proin vitae augue sit amet sapien faucibus porta in quis leo. Ut magna orci, 
-                            pharetra vitae leo ac, luctus mattis orci. In non imperdiet orci. Suspendisse et auctor est. 
-                            Quisque fermentum nisi vehicula, laoreet mauris sed, mattis lorem. Integer accumsan nunc ut viverra tempus.
-                        </p>
-                    </div>
-                </section>
-                <section class="step">
-                    <div class="description">
-                        <h3>Title</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id enim bibendum, porta turpis sed, 
-                            pulvinar ipsum. Proin vitae augue sit amet sapien faucibus porta in quis leo. Ut magna orci, 
-                            pharetra vitae leo ac, luctus mattis orci. In non imperdiet orci. Suspendisse et auctor est. 
-                            Quisque fermentum nisi vehicula, laoreet mauris sed, mattis lorem. Integer accumsan nunc ut viverra tempus.
-                        </p>
-                    </div>
-                    <div class="imageStep">
-                        <img src="not-found.png" alt="">
-                    </div>
-                </section>
-            </article>
 
             <section class="testimonies_section" id="testimonies">
                 <h2>Testimonies</h2>
                 <p class="sub2">Lorem ipsum dolor sit amet</p>
                 <div class="testimonie_container">
                     <article class="testimonie">
-                        <img src="img/testimonie1.jpg" alt="Image de la personne du premier témoignage">
-                        <p class="testimonie_name">Name</p>
-                        <p class="testimonie_info">Job, position, additional information</p>
-                        <p class="testimonie_text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                        <img src="img/testimonie2.jpg" alt="Image de la personne du premier témoignage">
+                        <p class="testimonie_name">Jeremy McGrath</p>
+                        <p class="testimonie_info"> Oil trading director</p>
+                        <p class="testimonie_text">I used to see email as a burden and would never have imagined how an inbox could actually help my team and I be that much more productive.</p>
                     </article>
                     <article class="testimonie">
-                        <img src="img/testimonie2.jpg" alt="Image de la personne du premier témoignage">
-                        <p class="testimonie_name">Name</p>
-                        <p class="testimonie_info">Job, position, additional information</p>
-                        <p class="testimonie_text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                        <img src="img/testimonie1.jpg" alt="Image de la personne du premier témoignage">
+                        <p class="testimonie_name">Rose De Fiery </p>
+                        <p class="testimonie_info">Talent acquisition VP</p>
+                        <p class="testimonie_text">I love how simple it is to switch to Bond. It's actually like an email inbox in which you never search for anything: it's right there!</p>
                     </article>
                     <article class="testimonie">
                         <img src="img/testimonie3.jpg" alt="Image de la personne du premier témoignage">
-                        <p class="testimonie_name">Name</p>
-                        <p class="testimonie_info">Job, position, additional information</p>
-                        <p class="testimonie_text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                        <p class="testimonie_name">Daren Williamson</p>
+                        <p class="testimonie_info">Chief Information Officer</p>
+                        <p class="testimonie_text">We deployed Bond quite fast and easily. It has also been adopted quick as the tool is very simple to use, and thanks to an efficient digital onboarding path.</p>
                     </article>
                     <article class="testimonie">
                         <img src="img/testimonie3.jpg" alt="Image de la personne du premier témoignage">
@@ -311,27 +289,49 @@
         <footer class="page_footer">
             <div class="footer_top">
                 <h2>Bond Inbox</h2>
-                <ul>
-                    <li><a href="#">LOREM</a></li>
-                    <li><a href="#">LOREM IPSUM</a></li>
-                    <li><a href="#">LOREM</a></li>
-                    <li><a href="#">LOREM IPSUM</a></li>
-                </ul>
                 <div class="icon_socials">
                     <div class="row">
                         <img src="img/facebook.png" alt="Icone de Facebook">
                         <img src="img/twitter.png" alt="Icone de Twitter">
-                    </div>
-                    <div class="row">
-                        <img src="img/instagram.png" alt="Icone d'Instagram">
                         <img src="img/linkedin.png" alt="Icone de LinkeIn">
                     </div>
                 </div>
             </div>
             <hr>
             <div class="footer_bottom">
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <ul>
+                    <li><a href="">Bond for Tech</a></li>
+                    <li><a href="">Bond for Human</a></li>
+                    <li><a href="">Ressources</a></li>
+                    <li><a href="">Bond for Finance</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="">Bond for Supply-Chain</a></li>
+                    <li><a href="">Bond for Industry</a></li>
+                    <li><a href="">Bond for Healthcare</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="">Bond for Média</a></li>
+                    <li><a href="">Bond for Entertainment</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="">Bond for Real Estate</a></li>
+                    <li><a href="">Bond for Construction</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="">Bond for Education</a></li>
+                    <li><a href="">Bond for Public</a></li>
+                    <li><a href="">Administration</a></li>
+                    <li><a href="">Bond for Non-Profit</a></li>
+                </ul>
             </div>
+            <div class="copyright-bondinbox">
+            <p>© 2020 Bond Inbox</p>
+        </div>
         </footer>
     </div>
 
